@@ -1,0 +1,144 @@
+body {
+/*
+    font-family: "ヒラギノ明朝 ProN W3" , "Hiragino Mincho ProN" , 
+        "HG明朝E" , "MS P明朝" , "MS 明朝" , serif;
+*/
+    background: #f0ffff;
+}
+
+.navbar {
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 24;
+    min-height: 70px;
+}
+
+main {
+    margin-top: 70px;
+}
+
+.main-title {
+    color: #000;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    
+}
+
+.content_title {
+    font-size: 20px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.user-image {
+    height: 40px;
+    width: 40x;
+    border-radius: 50%;
+    border: 1px solid #dcdcdc;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    margin-right: 10px;
+}
+
+.profile-user-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #dcdcdc;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+    margin-right: 10px;
+}
+
+.follow-user-image {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid #dcdcdc;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+
+.content-title {
+    text-align: center;
+    font-size: 25px;
+}
+
+.good-icon {
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.content-image {
+    margin: 0 auto;
+    display: block;
+}
+
+.attention {
+    font-size: 12px;
+    margin-left: 5px;
+    color: #f00;
+}
+
+.paginate {
+    margin: 0 auto;
+}
+
+.textarea {
+    height: 100px;
+}
+
+.title {
+    padding: 0.5em;
+    background: #f0fff0;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.23);
+}
+
+.follow-title {
+    padding: 0.5em;
+    background: #f0fff0;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.23);
+    margin: 20px;
+}
+
+.user-info {
+    display: flex;
+}
+
+.user-name {
+    margin: auto;
+}
+
+.user-status {
+    padding: 0;
+    position: relative;
+}
+
+.user-status li {
+    color: #2d8fdd;
+    border-left: solid 6px #2d8fdd;
+    background: #f1f8ff;
+    margin-bottom: 3px;
+    line-height: 1.5;
+    padding: 0.5em;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.user-status li:hover {
+    background: #f5f5f5;
+}
+
+.follow-page-link:hover {
+    color: #000;
+    background: #f5f5f5;
+}
+
+@media screen and (max-width: 1000px) {
+    .small-font {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,38 @@
+body {
+    font-family: "ヒラギノ明朝 ProN W3" , "Hiragino Mincho ProN" , 
+        "HG明朝E" , "MS P明朝" , "MS 明朝" , serif;
+}
+
+.top_image {
+    background:url(/storage/image/login_background2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 800px;
+
+}
+
+.main-title {
+    color: #fff;
+    font-family: 'Amatic SC', cursive;
+}
+
+.user-create-page {
+    background: #f0ffff;
+    height: 800px;
+}
+
+#fade-in-content {
+    display: none;
+}
+
+.top-icon {
+    border-radius: 50%
+}
+
+span {
+    font-size: 12px;
+}
+
+.textarea {
+    height: 100px;
+}
